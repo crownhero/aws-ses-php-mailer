@@ -4,11 +4,11 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception; 
 require '/Users/mac/Documents/aws-ses-phpmailer/phpmailerlibrary/vendor/autoload.php';
-$sender = 'kunmi.tokede@redbiller.email ';
+$sender = 'stre@flexi.email ';
 $senderName = 'Transaction';
  
 // is still in the sandbox, this address must be verified.
-$recipient = 'oluwademilade206@gmail.com';
+$recipient = 'stre@gmail.com';
 
  
 // Replace smtp_username with your Amazon SES SMTP user name.
@@ -16,7 +16,7 @@ $username = '<access-key>';
  
 // Replace smtp_password with your Amazon SES SMTP password.
 $password = '<secret-key>';
-$host = 'email-smtp.eu-west-2.amazonaws.com'; 
+$host = 'email-smtp.eu-west-1.amazonaws.com'; 
 $port = 465;
  
 // The subject line of the email
